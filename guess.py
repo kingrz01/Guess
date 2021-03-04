@@ -11,7 +11,7 @@ def game():
         guess = input("\nWhat is your guess? ")
 
         while len(guess) !=3 or guess[0]==guess[1] or guess[0]==guess[2] or guess[1]==guess[2]:
-            guess = input("\nWrong input! All the 3 numbers must be different. Try again!\nWhat is your guess? ")
+            guess = input("\nWrong input! There must be 3 different. Try again!\nWhat is your guess? ")
         counter = 0      
         for x in guess:
             if int(x) in y:
